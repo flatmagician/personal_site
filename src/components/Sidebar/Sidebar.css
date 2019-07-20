@@ -1,0 +1,56 @@
+#navigation {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0px 0px;
+    height: 100vh;
+}
+
+.navigationHover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hamburgerWrapper {
+    top: 0;
+    right: 5px;
+    background-color: black;
+}
+
+#small {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.hamburger {
+    padding: 5px 5px;
+    position: relative;
+    right: 0px;
+    display: block;
+    height: 20px;
+    padding: 5px;
+    justify-self: right;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-self: left;
+    text-align: left;
+    top: -2px;
+    font-size: 1.2em;
+    color: white;
+    transform: scaleX(.79);
+    padding: 3px 6px;
+}
+
+.links div {
+    padding: 5px 0px 0px 0px;
+
+}
+
+.links div a {
+    text-decoration: none;
+    color: inherit;
+}

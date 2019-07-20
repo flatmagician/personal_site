@@ -1,0 +1,32 @@
+.social {
+    padding: 2px;
+    margin: 0 auto;
+    display: flex;
+    bottom: 0;
+    z-index: 1;
+}
+
+.stack {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-items: stretch;
+    text-decoration: none;
+}
+
+.stack:visited {
+    color: inherit;
+}
+
+.icon {
+    transform: translateY(-2px);
+    width: 35px;
+    height: 35px;
+    padding-right: 20px;
+}
+
+.label {
+    display: none;
+    padding-right: 10px;
+    font-size: 1.2em;
+}

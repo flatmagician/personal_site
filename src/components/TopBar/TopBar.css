@@ -1,0 +1,21 @@
+.top_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: min-content;
+    width: 100%;
+    color: white;
+
+}
+
+.top_links div {
+    padding: 5px 0px 0px 0px;
+    transform: scaleX(.79);
+
+}
+
+.top_links div a {
+    text-decoration: none;
+    color: inherit;
+
+}
