@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My personal website, made using React. Nothing crazy going on here. If you're interested in building this, the Create React App commands listed below should be more than enough to get you started.
+
 
 ## Available Scripts
 
